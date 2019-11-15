@@ -1,0 +1,105 @@
+.over {
+    left: 45%;
+}
+
+.imggirl {
+    width: 40vw;
+    height: 30vw;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.item {
+    height: 40em;
+
+    /* border-width: 3px;
+    border-style: solid;
+    border-image:
+        linear-gradient(to bottom,
+            rgb(255, 255, 255),
+            rgba(0, 0, 0, 0)) 1 100%; */
+}
+
+.title {
+    /* border-bottom: 3px solid rgba(0, 0, 0, 0.185); */
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .1);
+
+}
+
+.front {
+    height: 40vh;
+    background-image: url('detail-of-open-magazine-6348.jpg');
+    background-position-y: 70%;
+    margin-bottom: 20em;
+}
+
+.front h1 {
+    font-size: 7em;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.274);
+}
+
+.headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
+}
+
+.headroom--pinned {
+    transform: translateY(0%);
+}
+
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.328);
+    border-radius: 10px;
+}
+
+.btnn {
+    background: rgb(0, 133, 213);
+    background: linear-gradient(16deg, rgba(0, 133, 213, 0.9920343137254902) 0%, rgba(61, 31, 210, 1) 100%);
+}
+
+.btnn:hover {
+    background: rgb(0, 133, 213);
+    background: linear-gradient(16deg, rgba(2, 145, 235, 0.992) 0%, rgb(64, 34, 216) 100%);
+    transition: .5s;
+}
+
+.con-front {
+    background-image: url('portrait-of-young-woman-using-mobile-phone-in-cafe-323503.jpg');
+    height: 50vh;
+    background-position-y: 70%;
+}
+
+
+@media (max-width: 640px) {
+    .front h1 {
+        font-size: 5em;
+    }
+
+    .imggirl {
+        margin: 0px;
+        right: 20%;
+        width: 80vw;
+        height: 60vw;
+    }
+
+    #services {
+        margin-top: 15em;
+    }
+}

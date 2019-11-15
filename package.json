@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "aos": "^2.3.4",
+    "headroom.js": "^0.10.3",
+    "lax.js": "^1.2.5",
+    "smooth-scrollbar": "^8.5.0",
+    "swiper": "^5.2.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  }
+}

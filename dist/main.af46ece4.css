@@ -13,6 +13,8 @@ html {
     overflow-x: hidden;
 }
 
+
+
 .item {
     height: 40em;
 
@@ -101,6 +103,22 @@ html {
 
     #services {
         margin-top: 15em;
+    }
+}
+
+@media (min-width: 1920px) {
+    #change {
+        font-size: 3.5em;
+    }
+
+    .txt {
+        font-size: 1.8em;
+    }
+
+    .service {
+        width: 50%;
+        justify-content: center;
+        align-content: center;
     }
 }
 

@@ -9,7 +9,7 @@ const headroom = new Headroom(header);
 headroom.init();
 
 window.onload = function () {
-    lax.setup() // init
+    lax.setup()
 
     const updateLax = () => {
         lax.update(window.scrollY)
